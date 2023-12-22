@@ -36,7 +36,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          # Upload entire repository
+          # Upload sitedir folder
           path: './sitedir/'
       - name: Deploy to GitHub Pages
         id: deployment
